@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="963.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="-3.0" prefHeight="632.0" prefWidth="283.0" style="-fx-background-color: #6A5ACD;">
+         <children>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="295.0" style="-fx-background-color: #6A5ACD;" text="eTicket" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Bauhaus 93" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="283.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="26.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/111-1110799_home-visits-hangouts-home-icon-outline-png-transparent.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Dashboard">
+                     <font>
+                        <Font name="Bauhaus 93" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="283.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="43.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/pngtree-gear-icon-png-image_1757826.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="18.0" prefWidth="183.0" text="Setting">
+                     <font>
+                        <Font name="Bauhaus 93" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="283.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/173-1731325_person-icon-png-transparent-png.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="18.0" prefWidth="183.0" text="profile">
+                     <font>
+                        <Font name="Bauhaus 93" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+         </children></VBox>
+      <Label alignment="CENTER" layoutX="525.0" layoutY="7.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #6A5ACD; -fx-background-radius: 10;" text="Ticket Counter" textFill="#fff2f2">
+         <font>
+            <Font name="Bauhaus 93" size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="280.0" layoutY="109.0" prefHeight="75.0" prefWidth="686.0">
+         <children>
+            <VBox prefHeight="75.0" prefWidth="118.0" style="-fx-background-color: #8EEBEC; -fx-background-radius: 10;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="21.0" prefWidth="103.0" text="Total Budget">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="70.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="75.0" prefWidth="122.0" style="-fx-background-color: #3EB489; -fx-background-radius: 10;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="103.0" text="Active Ticket">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="300.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="280.0" layoutY="278.0" prefHeight="75.0" prefWidth="686.0" style="-fx-background-color: #C0C0C0; -fx-background-radius: 10;">
+         <children>
+            <Label alignment="CENTER" text="Bus id" textAlignment="JUSTIFY">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="From">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="TO">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Date">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Time">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Seat">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
